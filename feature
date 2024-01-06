@@ -172,9 +172,9 @@ En conclusión, la seguridad de aplicaciones es un aspecto crítico en la protec
                        </div>
                    </div>
                    <div class="col-3">
-                       <h2 class="footer-title secondary-title">Feature Post</h2>
+                       <h2 class="footer-title secondary-title">Artículos similares</h2>
 
-                       <div class="feature-post">
+                       <div class="artículos-similares">
                            <div class="flex-item">
                                <article class="article">
                                    <div class="d-flex">
@@ -182,8 +182,7 @@ En conclusión, la seguridad de aplicaciones es un aspecto crítico en la protec
                                            <img src="./assets/img9.jpg" class="object-fit px-1" alt="">
                                            <div class="px-1">
                                                <a href="#" class="text-title display-2 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
+                                                Familias ransomware: acciones de respuesta y recuperación
                                                </a>
                                                <p class="secondary-title text-secondary display-3">
                                                     <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
