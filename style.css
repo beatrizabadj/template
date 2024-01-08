@@ -199,7 +199,7 @@ a{
  
 /* ------- Navigation Menu ---------- */
 .navbar {
-    background-color: navy;
+    background-color: transparent;
 }
 
 .nav-link {
@@ -385,4 +385,7 @@ a{
 #header .navbar img {
     width: 100%; /* Puedes ajustar este valor según tus necesidades */
     height: 100px; /* Esto mantiene la proporción de la imagen */
+}
+#header{
+    width: auto;
 }
