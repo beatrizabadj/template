@@ -19,8 +19,8 @@ body {
     line-height: 1.5;
 }
 h1{
-    border-bottom: 2px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
-    padding-bottom: 10px; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
+    border-bottom: 5px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
+    padding-bottom: 5px; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
     margin-bottom: 20px;
     font-size: 75px;
 }
