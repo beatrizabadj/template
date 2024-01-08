@@ -232,10 +232,6 @@ a{
     outline: none;
 }
 
-.header{
-    width: 500px; /* Cambia el ancho según tus necesidades */
-    height: 200px; /* Cambia la altura según tus necesidades */
-}
 
 
 
@@ -387,8 +383,9 @@ a{
     width: 100%; /* Puedes ajustar este valor según tus necesidades */
     height: 100px; /* Esto mantiene la proporción de la imagen */
 }
+
 #header{
-    width: 100%;
+    width: 400px;
     position:absolute;
     z-index: 100;
 }
