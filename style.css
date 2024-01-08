@@ -229,10 +229,13 @@ a{
 .toggle-button:focus{
     outline: none;
 }
+
 .header{
     width: 500px; /* Cambia el ancho según tus necesidades */
     height: 200px; /* Cambia la altura según tus necesidades */
 }
+
+
 
 
 /* ------- .Navigation Menu ---------- */
@@ -378,3 +381,7 @@ a{
     max-width: 30%;
 }
 
+#header img {
+    width: 100px; /* Cambia el ancho según tus necesidades */
+    height: auto; /* Establecer height:auto mantiene la proporción original */
+}
