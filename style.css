@@ -3,7 +3,7 @@
 /* root styling */
 
 :root {
-    --primary: #3498db; /* Azul */
+    --primary: #000000; /* Azul */
     --secondary: #2ecc71; /* Verde */
     --background: #ecf0f1; /* Gris claro */
     --text-dark: #34495e; /* Texto oscuro */
@@ -49,7 +49,7 @@ a{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 800px;
     padding: 0 15px;
     margin: auto;
 }
