@@ -25,6 +25,9 @@ h1{
     font-size: 75px;
 }
 
+h2{
+    border-bottom: 2px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
+}
 a{
     text-decoration: none;
 }
