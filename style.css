@@ -20,9 +20,8 @@ body {
     overflow-x: hidden;
 }
 h1{
-    border-bottom: 5px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
+    border-bottom: 2px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
     padding-bottom: 5px; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
-    padding-top: 5px;
     margin-bottom: 20px;
     border-radius: 10px;
     font-size: 75px;
@@ -384,8 +383,8 @@ a{
     height: 100px; /* Esto mantiene la proporción de la imagen */
 }
 
-#header{
-    width: 400px;
-    position:absolute;
-    z-index: 100;
+#collapse{
+    width: 100%;
+    position: absolute;
+    margin-top:10%;
 }
