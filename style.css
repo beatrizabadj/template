@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 /* root styling */
 
-:root{
-    --light : #f8f9fa;
-    --secondary: #adb5bd;
-    --dark: #343a40;
-    --primary-color: #f15bb5;
-    --secondary-color: #2ec4b6;
-    --border : #e9ecef;
+:root {
+    --primary: #3498db; /* Azul */
+    --secondary: #2ecc71; /* Verde */
+    --background: #ecf0f1; /* Gris claro */
+    --text-dark: #34495e; /* Texto oscuro */
 }
 
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--background);
+    color: var(--text-dark);
     padding: 0;
     margin: 0;
 }
@@ -26,24 +27,25 @@ a{
 }
 
 /* global styling */
-.text-light{
-    color: var(--light);
+.text-light {
+    color: var(--background);
 }
 
-.text-secondary{
+.text-primary {
+    color: var(--primary);
+}
+
+.text-secondary {
     color: var(--secondary);
 }
 
-.text-dark{
-    color: var(--dark);
+.bg-light {
+    background-color: var(--background);
 }
 
-.text-primary{
-    color: var(--primary-color);
-}
-
-.bg-light{
-    background-color: var(--light);
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--background);
 }
 
 .container{
@@ -180,34 +182,16 @@ a{
 /* section styling */
  
 /* ------- Navigation Menu ---------- */
-.navbar{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
+.navbar {
+    background-color: var(--background);
 }
 
-.nav-brand{
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
-    align-self: center;
-    font-size: 32px;
+.nav-link {
+    color: var(--text-dark);
 }
 
-.collapse{
-    align-self: center;
-}
-
-.nav-link{
-    font-size: 18px;
-    margin: 12px;
-    color: var(--dark);
-    font-family: 'Poppins', sans-serif;
-}
-
-.nav-link:hover{
-    color: var(--primary-color);
+.nav-link:hover {
+    color: var(--primary);
 }
 
 .search-box{
@@ -325,17 +309,13 @@ a{
 /* ----------- .article page ------- */
 
 /* ----------- sidebar page ------- */
-#sidebar .categories a{
-    padding: 1em 3em;
-    font-size: 18px;
-    margin-bottom: 1em;
-    background-color: var(--light);
-    border-radius: 99px;
+#sidebar .categories a {
+    background-color: var(--primary);
+    color: var(--background);
 }
 
-#sidebar .categories a:hover{
-    background-color: var(--primary-color);
-    color: var(--light);
+#sidebar .categories a:hover {
+    background-color: var(--secondary);
 }
 
 /* ----------- .sidebar page ------- */
