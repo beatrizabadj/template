@@ -17,6 +17,7 @@ body {
     padding: 0;
     margin: 0;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 h1{
     border-bottom: 5px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
@@ -387,5 +388,7 @@ a{
     height: 100px; /* Esto mantiene la proporción de la imagen */
 }
 #header{
-    width: auto;
+    width: 100%;
+    position:absolute;
+    z-index: 100;
 }
