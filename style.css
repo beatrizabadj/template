@@ -16,7 +16,6 @@ body {
     color: var(--text-dark);
     padding: 0;
     margin: 0;
-    background: url('ruta/de/tu/imagen.jpg') center/cover no-repeat fixed; /* Ajusta 'ruta/de/tu/imagen.jpg' a la ubicación de tu imagen */
 }
 
 a{
