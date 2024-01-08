@@ -21,6 +21,7 @@ body {
 h1{
     border-bottom: 5px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
     padding-bottom: 5px; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
+    padding-top: 5px;
     margin-bottom: 20px;
     border-radius: 10px;
     font-size: 75px;
