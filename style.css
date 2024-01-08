@@ -339,24 +339,23 @@ a{
 
 /* Media Query */
 
-.row{
+.row {
     display: flex;
 }
 
-.col-3{
+.col-3 {
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
     padding-right: 35px;
 }
 
-.col-8{
+.col-8 {
     flex: 0 0 70%;
     max-width: 70%;
 }
 
-.col-4{
+.col-4 {
     flex: 0 0 30%;
     max-width: 30%;
 }
-
 
