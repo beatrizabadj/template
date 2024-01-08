@@ -381,7 +381,7 @@ a{
     max-width: 30%;
 }
 
-#header .navbar img {
-    width: 150px; /* Puedes ajustar este valor según tus necesidades */
-    height: auto; /* Esto mantiene la proporción de la imagen */
+#header img {
+    width: auto; /* Cambia el ancho según tus necesidades */
+    height: auto; /* Establecer height:auto mantiene la proporción original */
 }
