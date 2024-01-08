@@ -4,7 +4,7 @@
 
 :root {
     --primary: #000000; /* Azul */
-    --secondary: #2ecc71; /* Verde */
+    --secondary: #000000; /* Verde */
     --background: #ecf0f1; /* Gris claro */
     --text-dark: #34495e; /* Texto oscuro */
 }
