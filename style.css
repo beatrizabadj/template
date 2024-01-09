@@ -288,10 +288,9 @@ a{
 /* ----------- footer ---------- */
 #footer{
     position: relative;
-    top:45em;
     width: 100%;
     text-align: center; /* Centra el contenido del pie de página */
-    padding-top: 4em;
+    top:250em;
 }
 
 #footer .feature-post .flex-item{
