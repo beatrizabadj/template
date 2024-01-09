@@ -15,8 +15,6 @@ body {
     background-color: var(--background);
     background: url(https://www.cpsl.com/wp-content/uploads/2018/10/Software-1.jpg) center/cover no-repeat fixed;
     color: var(--text-dark);
-    padding: 0;
-    margin: 0;
     line-height: 1.5;
     overflow-x: hidden;
     position: relative;
@@ -217,7 +215,7 @@ a{
 
 .navbar {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
     padding: 1px;
 }
 
