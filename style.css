@@ -27,7 +27,7 @@ h1 {
     position: absolute;
     color: #165a72;
     font-family: 'Poppins', sans-serif;
-    top: 65vh;
+    top: 2em;
     left: 50vw;
     transform: translate(-50%, -50%);
 }
@@ -290,7 +290,7 @@ a{
 /* ----------- footer ---------- */
 #footer{
     position: absolute;
-    top: 1000px;
+    top:60em;
     width: 100%;
     text-align: center; /* Centra el contenido del pie de página */
     padding-top: 4em;
