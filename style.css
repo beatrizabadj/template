@@ -11,7 +11,7 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--background);
     background: url(https://www.cpsl.com/wp-content/uploads/2018/10/Software-1.jpg) center/cover no-repeat fixed;
     color: var(--text-dark);
@@ -21,10 +21,11 @@ body {
     overflow-x: hidden;
 }
 h1{
-    padding-top: 15%; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
+    padding-top: 20%;
     font-size: 75px;
     position: absolute;
-    color: white;
+    color: #165a72;
+    font-family: 'Poppins', sans-seriff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -35,6 +36,10 @@ h2{
     padding-bottom: 5px; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
     margin-bottom: 20px;
     border-radius: 10px;
+}
+
+.p1{
+  margin-top:150px;
 }
 
 a{
