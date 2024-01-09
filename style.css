@@ -75,6 +75,8 @@ a{
 
 .img-fluid{
     width: 100%;
+    border-radius:15px;
+    
 }
 
 .text-title{
@@ -202,40 +204,47 @@ a{
  
 /* ------- Navigation Menu ---------- */
 .navbar {
-    background-color: transparent;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link {
-    color: var(--text-dark);
+    color: #333333;
+    text-decoration: none;
+    padding: 80px;
+    transition: color 0.3s ease;
 }
-
 .nav-link:hover {
-    color: var(--primary);
+    color: #3498db;
 }
 
-.search-box{
-    display: inline;
-    border-right: 1px solid var(--secondary);
-    padding-right: 12px;
-    margin-right: 10px;
-}
 
 .toggle-button{
     font-size: 21px;
     background-color: transparent;
     border: none;
-    position: absolute;
-    right: 0;
-    margin: 8px 10px;
     display: none;
 }
 
-.toggle-button:focus{
-    outline: none;
 }
+@media (max-width: 768px) {
+    .toggle-button {
+        display: block; /* Muestra el botón en pantallas pequeñas */
+    }
 
-
-
+    .collapse {
+        display: none; /* Oculta la sección colapsable por defecto */
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+}
 
 
 /* ------- .Navigation Menu ---------- */
@@ -387,8 +396,4 @@ a{
     height: 100px; /* Esto mantiene la proporción de la imagen */
 }
 
-#collapse{
-    width: 100%;
-    position: absolute;
-    margin-top:10%;
-}
+
