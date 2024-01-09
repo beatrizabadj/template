@@ -59,7 +59,9 @@ a{
 }
 
 .bg-light {
-    background-color: var(--background);
+  background-color: var(--background);
+  border-radius:100px;
+  margin:5px;  
 }
 
 .btn-primary {
