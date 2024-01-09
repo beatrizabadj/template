@@ -19,15 +19,16 @@ body {
     margin: 0;
     line-height: 1.5;
     overflow-x: hidden;
+    position: relative;
 }
-h1{
-    padding-top: 20%;
-    font-size: 75px;
+h1 {
+    padding-top: 5vw;
+    font-size: 5em;
     position: absolute;
     color: #165a72;
-    font-family: 'Poppins', sans-seriff;
-    top: 50%;
-    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    top: 65vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
 }
 
@@ -75,7 +76,7 @@ a{
 }
 
 .container{
-    max-width: 800px;
+    max-width: 1000px;
     padding: 0 10px;
     margin: auto;
 }
@@ -246,10 +247,12 @@ a{
 }
 
 @media (max-width: 768px) {
-    .toggle-button {
-        display: block; /* Muestra el botón en pantallas pequeñas */
+    h1 {
+        font-size: 2em;
     }
-
+    .toggle-button {
+      display: block;
+    }
     .collapse {
         display: none; /* Oculta la sección colapsable por defecto */
         width: 100%; /* Ocupa todo el ancho disponible */
@@ -261,8 +264,12 @@ a{
 
 /* ----------- Main Section ---------- */
 
-#site-main{
+#site-main {
     margin-top: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta la altura según tus preferencias */
 }
 
 #posts{
@@ -282,7 +289,12 @@ a{
 
 /* ----------- footer ---------- */
 #footer{
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    text-align: center; /* Centra el contenido del pie de página */
     padding-top: 4em;
+    margin-top: 205em;
 }
 
 #footer .feature-post .flex-item{
@@ -298,6 +310,7 @@ a{
 #footer .copyrights{
     padding: 10px 0;
     border-top: 2px solid var(--light);
+    margin-top: 20px;
 }
 
 
