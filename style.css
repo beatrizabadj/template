@@ -287,12 +287,11 @@ a{
 
 /* ----------- footer ---------- */
 #footer{
-    position: absolute;
-    top:60em;
+    position: relative;
+    top:45em;
     width: 100%;
     text-align: center; /* Centra el contenido del pie de página */
     padding-top: 4em;
-    margin-top: 205em;
 }
 
 #footer .feature-post .flex-item{
@@ -411,4 +410,3 @@ a{
     flex: 0 0 30%;
     max-width: 30%;
 }
-
