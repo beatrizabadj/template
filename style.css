@@ -20,12 +20,11 @@ body {
     position: relative;
 }
 h1 {
-    padding-top: 5vw;
     font-size: 5em;
     position: absolute;
     color: #165a72;
     font-family: 'Poppins', sans-serif;
-    top: 2em;
+    top: 0.4em;
     left: 50vw;
     transform: translate(-50%, -50%);
 }
@@ -131,13 +130,6 @@ a{
     object-fit: fill;
 }
 
-.d-flex{
-    display: flex;   
-}
-
-.flex-wrap{
-    flex-wrap: wrap;
-}
 
 .justify-content-center{
     justify-content: center;
@@ -227,11 +219,13 @@ a{
 }
 
 .nav-link {
-    color: white;
+    color: navy;
     text-decoration: none;
-    padding: 80px;
+    padding: 0.5px 10px;
     transition: color 0.3s ease;
+    width:100%;
 }
+
 .nav-link:hover {
     color: #3498db;
 }
@@ -267,7 +261,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Ajusta la altura según tus preferencias */
+    height: 1vh; /* Ajusta la altura según tus preferencias */
 }
 
 #posts{
@@ -288,14 +282,10 @@ a{
 /* ----------- footer ---------- */
 #footer{
     position: relative;
-    width: 100%;
-    text-align: center; /* Centra el contenido del pie de página */
-    top:250em;
+    width: 200%;
+    left: 80px;
 }
 
-#footer .feature-post .flex-item{
-    margin-bottom: 10px;
-}
 
 #footer .tags a{
     border-radius: 40px;
@@ -390,13 +380,13 @@ a{
 /* Media Query */
 
 .row {
-    display: flex;
+    display: wrap;
 }
 
 .col-3 {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-    padding-right: 35px;
+    max-width: 30%;
+    padding-right: 25px;
+    margin:40px;
 }
 
 .col-8 {
