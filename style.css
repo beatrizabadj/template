@@ -283,9 +283,9 @@ a{
 
 /* ----------- footer ---------- */
 #footer{
-    position: relative;
-    width: 200%;
-    left: 80px;
+    position: absolute;
+    width: 20%;
+    right: 0;
 }
 
 
