@@ -287,9 +287,10 @@ a{
 
 /* ----------- footer ---------- */
 #footer{
-    position: absolute;
-    width: 20%;
-    right: 0;
+    position: relative;
+    width: 20%; /* Puedes ajustar el ancho según tus preferencias */
+    left: 0;
+    bottom:100px;
 }
 
 #footer .container {
