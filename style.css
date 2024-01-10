@@ -3,10 +3,10 @@
 /* root styling */
 
 :root {
-    --primary: black; /* Azul */
-    --secondary: black; /* Verde */
-    --background: #ecf0f1; /* Gris claro */
-    --text-dark: #34495e; /* Texto oscuro */
+    --primary: black;
+    --secondary: black;
+    --background: #ecf0f1;
+    --text-dark: #34495e;
 }
 
 
@@ -21,23 +21,23 @@ body {
 }
 h1 {
     font-size: 5em;
-    position: absolute;
     color: #165a72;
     font-family: 'Poppins', sans-serif;
-    top: 0.4em;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h2{
     border-bottom: 2px solid var(--primary); /* Puedes ajustar el grosor y el color según tus preferencias */
     padding-bottom: 5px; /* Ajusta este valor para controlar el espacio entre el texto y la línea */
-    margin-bottom: 20px;
+    margin-top: 80px;
     border-radius: 10px;
 }
 
 .p1{
-  margin-top:150px;
+  margin-top:20%;
 }
 
 a{
@@ -55,6 +55,7 @@ a{
 
 .text-primary {
     color: var(--primary);
+    
 }
 
 .text-secondary {
@@ -99,10 +100,12 @@ a{
 
 .display-2{
     font-size: 16px;
+  
 }
 
 .display-3{
     font-size: 14px;
+  
 }
 
 .text-center{
@@ -206,9 +209,8 @@ a{
 }
 
 .navbar {
-    display: flex;
     justify-content: center; 
-    padding: 1px;
+    padding: 80px;
 }
 
 .navbar-nav {
@@ -219,7 +221,7 @@ a{
 }
 
 .nav-link {
-    color: navy;
+    color: white;
     text-decoration: none;
     padding: 0.5px 10px;
     transition: color 0.3s ease;
@@ -293,11 +295,13 @@ a{
     font-size: 15px;
 }
 
-#footer .copyrights{
-    padding: 10px 0;
-    border-top: 2px solid var(--light);
-    margin-top: 20px;
-}
+.copyrights{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1px;
 
 
 /* ----------- .footer ---------- */
